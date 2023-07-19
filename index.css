@@ -194,6 +194,31 @@ nav > ul > li {
   font-weight: 500;
   line-height: 45px;
 }
+
+/* ---GAMING FUNNY VIDEO--- */
+.funny-video {
+  width: 80%;
+  margin: auto;
+  padding: 120px 0px;
+  text-align: center;
+}
+.video-text > h1 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.video {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.video-text > p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
 /* --- MOBILE DEVICE ---- */
 @media screen and (max-width: 576px) {
   nav,
