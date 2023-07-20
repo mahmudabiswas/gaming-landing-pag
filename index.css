@@ -299,6 +299,50 @@ nav > ul > li {
   color: red;
 }
 
+/* ----FOOTER SECTION --- */
+footer {
+  margin: auto;
+  background-color: #0b0223;
+  padding: 100px 250px;
+  margin: auto;
+  text-align: center;
+}
+#gammer-img {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+}
+.footer-list {
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 61px;
+  padding-bottom: 20px;
+}
+.footer-link a > i {
+  font-weight: 400;
+  gap: 30px;
+  margin-left: 34px;
+  font-size: 23px;
+  color: #fff;
+}
+.footer-text {
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0px;
+  gap: 30px;
+}
+.footer- {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
 /* --- MOBILE DEVICE ---- */
 @media screen and (max-width: 576px) {
   nav,
@@ -369,6 +413,32 @@ nav > ul > li {
     padding: 0px;
     margin: 0px;
   }
+  footer {
+    width: 554px;
+    background-color: #0b0223;
+    padding: 56px 129px 15px 2px;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .footer-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+  }
+  .footer-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .footer- {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 /* TABLET OR MEDIUM DEVICES */
@@ -393,5 +463,31 @@ nav > ul > li {
     font-size: 40px;
     width: 100%;
     padding-bottom: 20px;
+  }
+  footer {
+    width: 554px;
+    background-color: #0b0223;
+    padding: 56px 46px 0px 0px;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .footer-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+  }
+  .footer-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .footer- {
+    color: rgba(255, 255, 255, 0.6);
   }
 }
