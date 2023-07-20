@@ -196,7 +196,11 @@ nav > ul > li {
 }
 
 /* ---GAMING FUNNY VIDEO--- */
-.funny-video {
+.fuuny-videos {
+  width: 80%;
+  margin: auto;
+}
+.video-text {
   width: 80%;
   margin: auto;
   padding: 120px 0px;
@@ -219,11 +223,49 @@ nav > ul > li {
   font-weight: 400;
   line-height: 30px;
 }
+.funny-video {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 100px;
+  gap: 20px;
+}
+.funny-img {
+  align-items: center;
+}
+.img {
+  width: 200px;
+  height: auto;
+  border-radius: 16px;
+}
+.funny-img > p {
+  font-size: 15px;
+  width: 130px;
+}
+
+/* -----PLAY DOWNLOAD SECTION ---- */
+.download-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 157px;
+  padding: 89px 44px;
+}
+.card > img {
+  width: 100%;
+}
+.card-img > img {
+  width: 200px;
+  position: relative;
+  bottom: 163px;
+  left: -100px;
+}
 /* --- MOBILE DEVICE ---- */
 @media screen and (max-width: 576px) {
   nav,
   nav > ul,
-  .gammer {
+  .gammer,
+  .download-section {
     flex-direction: column;
     padding: 0px;
   }
@@ -248,6 +290,31 @@ nav > ul > li {
   .gammer-texts {
     padding: 27px;
   }
+  .video-text > h1 {
+    color: #0b0223;
+    font-size: 20px;
+  }
+  .video-text > p {
+    font-size: 10px;
+  }
+  .img {
+    width: 300px;
+    height: auto;
+  }
+  .card > img {
+    width: 82%;
+    margin-left: 56px;
+  }
+  .video-text {
+    padding: 0px;
+    padding-top: 30px;
+  }
+  .card-img > img {
+    width: 150px;
+    position: relative;
+    bottom: 124px;
+    left: 11px;
+  }
 }
 
 /* TABLET OR MEDIUM DEVICES */
@@ -263,5 +330,14 @@ nav > ul > li {
   nav > ul > li {
     gap: 10px;
     padding: 20px 46px;
+  }
+  .img {
+    width: 500px;
+    height: auto;
+  }
+  .funny-img > p {
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 20px;
   }
 }
