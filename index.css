@@ -401,6 +401,7 @@ footer {
   .game-catagory {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
   }
   .div > img {
     width: 27px;
